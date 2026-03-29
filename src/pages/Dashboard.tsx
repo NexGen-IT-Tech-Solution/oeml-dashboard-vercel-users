@@ -6,6 +6,7 @@ import opvtLogo from '@/assets/logos/OPVT.png'
 import asalLogo from '@/assets/logos/ASAL.png'
 import pipesizeLogo from '@/assets/logos/pipesize.png'
 import nexgenLogo from '@/assets/logos/metabase.png'
+import testLogo from '@/assets/logos/test.png'
 
 interface UserStats {
   total: number
@@ -33,6 +34,7 @@ const logoMap: { [key: string]: string } = {
   '3': asalLogo,
   '4': pipesizeLogo,
   '5': nexgenLogo,
+  '6': testLogo,
 }
 
 const defaultPortals: Portal[] = [
@@ -41,6 +43,7 @@ const defaultPortals: Portal[] = [
   { id: '3', name: 'ASAL', url: 'https://nexerp.alasayel.om' },
   { id: '4', name: 'Pipe Size', url: 'https://oemldxb-my.sharepoint.com/:b:/g/personal/itsupport_oeml_ae/IQBtVVNoDk7BSYdG63oTHEabAUJ4OoNQmsRBJ1a5TD0mLsc?e=eihZlK' },
   { id: '5', name: 'NexGen BI', url: 'https://nexbi.oeml.ae' },
+  { id: '6', name: 'Test Server', url: 'https://oemltd.u.frappe.cloud/app' },
 ]
 
 const timeZones: TimeZone[] = [

@@ -12,6 +12,7 @@ const defaultPortals: Portal[] = [
   { id: '1', name: 'OEML', url: 'https://nexerp.oeml.ae', logoUrl: '' },
   { id: '2', name: 'OPVT', url: 'https://nexerp.opvt.ae', logoUrl: '' },
   { id: '3', name: 'ASAL', url: 'https://nexerp.alasayel.om', logoUrl: '' },
+  { id: '6', name: 'Test Server', url: 'https://oemltd.u.frappe.cloud/app', logoUrl: '' },
 ]
 
 export default function PortalSettings() {
